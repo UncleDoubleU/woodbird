@@ -1,11 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import MainNav from './components/MainNav/MainNav'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <MainNav />
+      <div className="bg-red-500 text-white p-4">
+        Tailwind is working
+      </div>
     </>
   )
 }
