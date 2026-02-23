@@ -1,5 +1,6 @@
 
 import './App.css'
+import MainContent from './components/MainContent/MainContent'
 import MainNav from './components/MainNav/MainNav'
 
 function App() {
@@ -7,9 +8,8 @@ function App() {
   return (
     <>
       <MainNav />
-      <div className="bg-red-500 text-white p-4">
-        Tailwind is working
-      </div>
+      <MainContent />
+      
     </>
   )
 }
