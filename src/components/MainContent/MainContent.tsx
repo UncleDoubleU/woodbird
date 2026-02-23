@@ -17,7 +17,7 @@ function MainContent() {
                     Culture
                </h2>
                <article>
-               <img src="" alt="" />
+                    <img src="" alt="" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dap.</p>
                     <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dap.</b></p>
                     <a href="mailto:webmaster@example.com">INFO@WOODBIRD.DK</a>
