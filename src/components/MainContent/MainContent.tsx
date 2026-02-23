@@ -1,15 +1,18 @@
 import ImageGallery from '../ImageGallery/ImageGallery'
+import { HeartIcon } from '@heroicons/react/16/solid'
 
 function MainContent() {
      return (
-          <main>
-               <i>icon 1</i>
-               <h1>
-                    BRAND<br />
-                    MADE WITH<br />
-                    HEART
-               </h1>
-               <i>icon 2</i>
+          <main className='w-full pt-5 px-6'>
+               <article className='flex h-screen justify-between items-center'>
+                    <HeartIcon className='size-7 fill-neutral-800' />
+                    <h1 className='font-bold text-center text-[2.75rem]/[2.5rem] md:text-[7rem]/[5.5rem] xl:text-[12rem]/[10rem] scale-y-175'>
+                         BRAND<br />
+                         MADE WITH<br />
+                         HEART
+                    </h1>
+                    <HeartIcon className='size-7 fill-neutral-800' />
+               </article>
                <ImageGallery />
                <h2>
                     Based on our<br />
