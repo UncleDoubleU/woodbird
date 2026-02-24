@@ -16,7 +16,7 @@ function MainNav() {
 
      // using loops could help avoid repeating styles within the same element.
      return (
-          <header className="fixed flex justify-between w-full h-auto mt-0 px-6 py-2">
+          <header className="fixed flex justify-between w-full h-auto mt-0 px-6 py-2 z-50">
                <button className="font-bold uppercase absolute h-max py-1 px-4 rounded-full text-stone-100 bg-neutral-800 hidden">skip to main content</button>
                <nav className="flex justify-between items-center w-full shrink-0">
                     <div className="h-auto">
